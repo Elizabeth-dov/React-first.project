@@ -1,0 +1,26 @@
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 300px;
+
+ h1{
+        color: #fff;
+        padding-bottom: 50px;
+        font-family: "Protest Riot", sans-serif;
+        font-style: normal;;
+    }
+}
+.zoom_photo {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Плавний перехід */
+  }
+  
+  .zoom_photo:hover {
+    transform: scale(1.1); /* Збільшення фотографії при наведенні */
+  }
+  .portfolio__text {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 50px;
+  }

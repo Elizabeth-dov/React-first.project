@@ -1,0 +1,48 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+
+body {
+    line-height: 1.5;
+}
+
+
+img,
+picutre {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 57px;
+  
+}
+
+.socialIcons {
+display: flex;
+gap: 10px; 
+}
